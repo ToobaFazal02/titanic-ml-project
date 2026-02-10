@@ -1,0 +1,41 @@
+
+PROJECT: Titanic Survival Prediction
+DATE: 2026-02-10 07:55:09
+
+DATASET INFORMATION:
+  • Total Passengers: 891
+  • Features Used: 21
+  • Training Samples: 712
+  • Testing Samples: 179
+
+MODEL PERFORMANCE:
+  Random Forest:
+    - Training Accuracy: 91.15%
+    - Testing Accuracy:  81.56%
+    - AUC Score:         0.8315
+    
+  Decision Tree:
+    - Training Accuracy: 91.57%
+    - Testing Accuracy:  81.01%
+    - AUC Score:         0.8255
+
+BEST MODEL: Random Forest
+  
+TOP 5 IMPORTANT FEATURES:
+  2. Sex: 0.1856
+  6. Fare: 0.1445
+  12. Title_Mr: 0.1398
+  3. Age: 0.1107
+  1. Pclass: 0.0910
+
+KEY INSIGHTS:
+  • Gender was the most important predictor
+  • Passenger class significantly affected survival
+  • Family size and being alone also played important roles
+  • Random Forest performed better than Decision Tree
+
+NEXT STEPS:
+  1. Try hyperparameter tuning
+  2. Experiment with other algorithms (XGBoost, SVM)
+  3. Create ensemble models
+  4. Deploy model as a web app
